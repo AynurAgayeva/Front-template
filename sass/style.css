@@ -1,0 +1,182 @@
+body, html {
+  overflow-x: hidden;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+body {
+  color: #677788;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.heading {
+  color: rgb(22, 9, 9);
+  font-weight: 600;
+}
+
+.front-link {
+  color: #606d6b;
+  font-weight: 500;
+}
+
+.start {
+  color: #fff;
+  background-color: #377DFF;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 3px;
+}
+.start:hover {
+  box-shadow: 5px 10px 18px #a9b1b0;
+  background-color: #1250c2;
+}
+
+.fa-arrow-down {
+  color: red;
+}
+
+.fa-arrow-up {
+  color: green;
+}
+
+header {
+  width: 100%;
+}
+header .navbar {
+  width: 98%;
+}
+header .navbar .nav-link {
+  font-weight: 450;
+}
+header .navbar .nav-link:hover {
+  color: #377DFF;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main img {
+  -webkit-clip-path: polygon(30% 0%, 100% 1%, 100% 30%, 100% 70%, 100% 100%, 30% 100%, 0% 70%, 0% 30%);
+          clip-path: polygon(30% 0%, 100% 1%, 100% 30%, 100% 70%, 100% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.main .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .left .text {
+  padding: 5%;
+  width: 90%;
+  height: auto;
+}
+.main right {
+  width: 50%;
+}
+
+.front-card .develop {
+  width: 100%;
+}
+.front-card .develop .text-link li {
+  list-style: none;
+  margin-right: 20px;
+}
+.front-card .develop .text-link li:hover {
+  color: #377DFF;
+}
+.front-card .cards .card {
+  border: none;
+  box-shadow: 5px 10px 18px #a9b1b0;
+}
+
+.audience {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.audience .audience-con {
+  width: 95%;
+  background-color: rgb(247, 250, 255);
+  padding: 20px;
+}
+.audience .audience-con .row .left-img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 20px 48px #a9b1b0;
+}
+
+.testimonials .testimonials-con {
+  padding: 5%;
+}
+.testimonials .testimonials-con img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.score {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score .score-con {
+  width: 80%;
+  padding: 5%;
+  background-color: rgb(247, 250, 255);
+}
+.score .score-con .cards-con {
+  width: 80%;
+  margin: 0 auto;
+}
+.score .score-con .cards-con h1 {
+  font-size: 55px;
+}
+
+.discover .card {
+  border: none;
+}
+.discover .card .about {
+  font-size: 12px;
+}
+.discover .card .card-text {
+  font-size: 15px;
+}
+.discover button {
+  color: #606d6b;
+  border-radius: 30px;
+  border: 1px solid #a9b1b0;
+  padding: 8px 30px;
+  background-color: #fff;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(247, 250, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-con {
+  width: 98%;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+footer .footer-con .fa-brands:hover {
+  color: #fff;
+}
+footer .footer-con .item {
+  margin-top: 5%;
+}
+footer .footer-con li {
+  list-style: none;
+  font-size: 15px;
+  line-height: 2.2rem;
+}/*# sourceMappingURL=style.css.map */
